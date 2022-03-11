@@ -1,0 +1,54 @@
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+Welcome to Ubuntu 20.04 LTS (GNU/Linux 5.10.16.3-microsoft-standard-WSL2 x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Thu Mar 10 16:27:40 CST 2022
+
+  System load:  0.0                Processes:             8
+  Usage of /:   0.4% of 250.98GB   Users logged in:       0
+  Memory usage: 2%                 IPv4 address for eth0: 172.30.66.178
+  Swap usage:   0%
+
+0 updates can be installed immediately.
+0 of these updates are security updates.
+
+
+The list of available updates is more than a week old.
+To check for new updates run: sudo apt update
+
+
+This message is shown once once a day. To disable it please create the
+/home/linux_brian/.hushlogin file.
+linux_brian@DESKTOP-VI7NKI3:~$ echo Self-taught
+Self-taught
+linux_brian@DESKTOP-VI7NKI3:~$ pwd
+/home/linux_brian
+linux_brian@DESKTOP-VI7NKI3:~$ cd/
+-bash: cd/: No such file or directory
+linux_brian@DESKTOP-VI7NKI3:~$ cd /
+linux_brian@DESKTOP-VI7NKI3:/$ pwd
+/
+linux_brian@DESKTOP-VI7NKI3:/$ ls
+bin   dev  home  lib    lib64   lost+found  mnt  proc  run   snap  sys  usr
+boot  etc  init  lib32  libx32  media       opt  root  sbin  srv   tmp  var
+linux_brian@DESKTOP-VI7NKI3:/$ cd ~
+linux_brian@DESKTOP-VI7NKI3:~$ pwd
+/home/linux_brian
+linux_brian@DESKTOP-VI7NKI3:~$ mkdir chap16challenge
+linux_brian@DESKTOP-VI7NKI3:~$ ls
+chap16challenge
+linux_brian@DESKTOP-VI7NKI3:~$ cd ..
+linux_brian@DESKTOP-VI7NKI3:/home$ pwd
+/home
+linux_brian@DESKTOP-VI7NKI3:/home$ cd linux_brian
+linux_brian@DESKTOP-VI7NKI3:~$ pwd
+/home/linux_brian
+linux_brian@DESKTOP-VI7NKI3:~$ export x=100
+linux_brian@DESKTOP-VI7NKI3:~$ echo $x
+100
+linux_brian@DESKTOP-VI7NKI3:~$

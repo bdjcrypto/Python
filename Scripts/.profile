@@ -1,0 +1,1 @@
+export python_projects = /home/linux_brian
